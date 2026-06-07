@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/7cf00981-d597-4be8-b112-b4a0a265d465
-
 # TP 4 : Stockage Sécurisé de Données sur Android
 
 Ce projet implémente différentes méthodes de stockage sécurisé sur Android, notamment le stockage interne, externe (Scoped Storage), Room avec SQLCipher, et Jetpack Security.

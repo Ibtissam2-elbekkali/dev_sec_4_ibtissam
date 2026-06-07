@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background_ibtissam"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion Sécurisée"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/etUsername_ibtissam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom d'utilisateur"
+        android:textColor="@color/white"
+        android:textColorHint="#AAAAAA"
+        android:inputType="text"
+        android:backgroundTint="@color/accent_ibtissam" />
+
+    <EditText
+        android:id="@+id/etPassword_ibtissam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Mot de passe"
+        android:textColor="@color/white"
+        android:textColorHint="#AAAAAA"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/accent_ibtissam" />
+
+    <Button
+        android:id="@+id/btnLogin_ibtissam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Se connecter"
+        android:backgroundTint="@color/primary_ibtissam" />
+
+    <Button
+        android:id="@+id/btnRegister_ibtissam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="S'inscrire"
+        android:backgroundTint="@color/surface_ibtissam"
+        android:textColor="@color/white" />
+
+</LinearLayout>

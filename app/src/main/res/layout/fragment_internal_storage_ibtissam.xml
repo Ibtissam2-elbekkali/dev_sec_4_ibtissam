@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_ibtissam">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvInternalTitle_ibtissam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stockage Interne"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilFilename_ibtissam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Nom du fichier"
+            android:textColorHint="#AAAAAA"
+            app:layout_constraintTop_toBottomOf="@id/tvInternalTitle_ibtissam">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFilename_ibtissam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilContent_ibtissam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Contenu du fichier"
+            android:textColorHint="#AAAAAA"
+            app:layout_constraintTop_toBottomOf="@id/tilFilename_ibtissam">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etContent_ibtissam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:minLines="3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonContainer_ibtissam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/tilContent_ibtissam">
+
+            <Button
+                android:id="@+id/btnSave_ibtissam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enregistrer"
+                android:layout_marginEnd="4dp"
+                android:backgroundTint="@color/primary_ibtissam"/>
+
+            <Button
+                android:id="@+id/btnLoad_ibtissam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Charger"
+                android:layout_marginStart="4dp"
+                android:backgroundTint="@color/primary_ibtissam"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvFileContent_ibtissam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/surface_ibtissam"
+            android:padding="8dp"
+            android:minHeight="100dp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/buttonContainer_ibtissam" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

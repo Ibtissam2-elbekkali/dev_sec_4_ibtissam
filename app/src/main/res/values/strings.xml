@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">dev_sec_4</string>
+    <string name="tp_title1_ibtissam">TP 4 : Stockage Sécurisé de</string>
+    <string name="tp_title2_ibtissam">Données sur Android</string>
+    <string name="credits_ibtissam">Réalisé par Ibtissam</string>
+
+    <string name="tab_internal_ibtissam">Interne</string>
+    <string name="tab_external_ibtissam">Externe</string>
+    <string name="tab_room_ibtissam">Room</string>
+    <string name="tab_encrypted_ibtissam">Chiffré</string>
+
+    <string name="hint_filename_ibtissam">Nom du fichier</string>
+    <string name="hint_content_ibtissam">Contenu du fichier</string>
+    <string name="btn_save_ibtissam">Enregistrer</string>
+    <string name="btn_load_ibtissam">Charger</string>
+
+    <string name="login_title_ibtissam">Connexion Sécurisée</string>
+    <string name="hint_username_ibtissam">Nom d\'utilisateur</string>
+    <string name="hint_password_ibtissam">Mot de passe</string>
+    <string name="btn_login_ibtissam">Se connecter</string>
+    <string name="btn_register_ibtissam">S\'inscrire</string>
+
+    <string name="notes_title_ibtissam">Notes de %1$s</string>
+    <string name="hint_note_title_ibtissam">Titre de la note</string>
+    <string name="hint_note_content_ibtissam">Contenu de la note</string>
+    <string name="btn_save_note_ibtissam">Enregistrer la Note</string>
+    <string name="section_secure_notes_ibtissam">Vos Notes Sécurisées</string>
+
+    <string name="saved_data_label_ibtissam">Données sauvegardées : %1$s</string>
+    <string name="save_success_ibtissam">Sauvegardé avec succès !</string>
+</resources>
